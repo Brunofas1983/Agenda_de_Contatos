@@ -112,3 +112,52 @@ footer {
     text-align: center;
     padding: 5px;
 }
+
+/*--------------MOBILE------------*/
+@media screen and (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+    
+    body {
+        padding: 70px 0;
+        height: 100vh;
+    }
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    form {
+        display: block;
+    }
+
+    form input, button {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    table th {
+        font-size:  20px;
+    }
+
+    tbody td {
+        font-size: 14px;
+    }
+
+    tbody td img {
+        height: 25px;
+    }
+    
+}
+
+/*---------------------Tablet------------*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 97%;
+    }
+
+    body {
+        height: 100vh;
+    }
+}
